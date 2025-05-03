@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Disdukcapil Kota Brebes</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="{{ url_for('static', filename='img/logo.png') }}" alt="Logo Disdukcapil">
+            </div>
+            <h1>Chatbot Disdukcapil Kota Brebes</h1>
+        </header>
+        
+        <div class="chat-container">
+            <div class="chat-box" id="chatBox">
+                <div class="chat-message bot">
+                    <div class="message-content">
+                        <p>Halo! Selamat datang di layanan chatbot Disdukcapil Kota Brebes. Ada yang bisa saya bantu?</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="chat-input">
+                <input type="text" id="userInput" placeholder="Ketik pesan Anda di sini...">
+                <button id="sendButton"><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+        
+        <div class="suggestion-chips">
+            <div class="chip" onclick="sendSuggestion('Cara membuat KTP')">Cara membuat KTP</div>
+            <div class="chip" onclick="sendSuggestion('Syarat pembuatan KK')">Syarat pembuatan KK</div>
+            <div class="chip" onclick="sendSuggestion('Jam operasional')">Jam operasional</div>
+            <div class="chip" onclick="sendSuggestion('Lokasi kantor')">Lokasi kantor</div>
+        </div>
+
+        <footer>
+            <p>&copy; 2025 Disdukcapil Kota Brebes. Semua hak dilindungi.</p>
+        </footer>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

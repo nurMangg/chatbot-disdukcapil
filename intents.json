@@ -1,0 +1,218 @@
+{
+    "intents": [
+      {
+        "tag": "salam",
+        "patterns": [
+          "Halo",
+          "Hai",
+          "Selamat pagi",
+          "Selamat siang",
+          "Selamat sore",
+          "Selamat malam",
+          "Permisi"
+        ],
+        "responses": [
+          "Halo! Selamat datang di layanan chatbot Disdukcapil Kota Brebes. Ada yang bisa saya bantu?",
+          "Hai! Saya asisten virtual Disdukcapil Kota Brebes. Apa yang bisa saya bantu hari ini?",
+          "Selamat datang di Disdukcapil Kota Brebes. Ada yang bisa saya bantu?"
+        ]
+      },
+      {
+        "tag": "terima_kasih",
+        "patterns": [
+          "Terima kasih",
+          "Makasih",
+          "Thanks",
+          "Terima kasih banyak",
+          "Makasih ya"
+        ],
+        "responses": [
+          "Sama-sama! Senang bisa membantu Anda.",
+          "Dengan senang hati. Ada lagi yang bisa saya bantu?",
+          "Terima kasih kembali. Jika ada pertanyaan lain, silakan tanyakan."
+        ]
+      },
+      {
+        "tag": "ktp",
+        "patterns": [
+          "Cara membuat KTP",
+          "Syarat pembuatan KTP",
+          "Dokumen untuk KTP",
+          "Biaya pembuatan KTP",
+          "Berapa lama pembuatan KTP",
+          "Prosedur KTP",
+          "KTP hilang",
+          "Perpanjang KTP",
+          "KTP rusak"
+        ],
+        "responses": [
+          "Untuk membuat KTP, Anda memerlukan: 1) Fotokopi Kartu Keluarga, 2) Surat Pengantar dari RT/RW, 3) Foto 3x4 sebanyak 2 lembar. Silakan datang ke kantor Disdukcapil Kota Brebes dengan membawa dokumen tersebut.",
+          "Syarat pembuatan KTP: 1) Berusia minimal 17 tahun, 2) Fotokopi Kartu Keluarga, 3) Surat Pengantar RT/RW, 4) Foto 3x4 (2 lembar). Pembuatan KTP tidak dipungut biaya (gratis).",
+          "Untuk penggantian KTP yang hilang/rusak, Anda perlu membawa: 1) Surat kehilangan dari kepolisian (jika hilang), 2) KTP yang rusak (jika rusak), 3) Fotokopi Kartu Keluarga, 4) Surat Pengantar RT/RW."
+        ]
+      },
+      {
+        "tag": "kartu_keluarga",
+        "patterns": [
+          "Cara membuat Kartu Keluarga",
+          "Syarat pembuatan KK",
+          "Dokumen untuk KK",
+          "Biaya pembuatan KK",
+          "Berapa lama pembuatan KK",
+          "Prosedur KK",
+          "KK hilang",
+          "Perpanjang KK",
+          "KK rusak",
+          "Update KK"
+        ],
+        "responses": [
+          "Untuk membuat Kartu Keluarga baru, Anda memerlukan: 1) Surat Pengantar RT/RW, 2) Fotokopi Buku Nikah/Akta Perkawinan, 3) Surat Keterangan Pindah (jika pindah dari daerah lain). Silakan datang ke kantor Disdukcapil Kota Brebes.",
+          "Syarat pembuatan Kartu Keluarga: 1) Surat Pengantar RT/RW, 2) Fotokopi Buku Nikah, 3) KTP asli kepala keluarga dan anggota keluarga. Pembuatan KK tidak dipungut biaya (gratis).",
+          "Untuk penggantian KK yang hilang/rusak, Anda perlu membawa: 1) Surat kehilangan dari kepolisian (jika hilang), 2) KK yang rusak (jika rusak), 3) KTP asli kepala keluarga, 4) Surat Pengantar RT/RW."
+        ]
+      },
+      {
+        "tag": "akta_kelahiran",
+        "patterns": [
+          "Cara membuat akta kelahiran",
+          "Syarat pembuatan akta kelahiran",
+          "Dokumen untuk akta kelahiran",
+          "Biaya pembuatan akta kelahiran",
+          "Berapa lama pembuatan akta kelahiran",
+          "Prosedur akta kelahiran",
+          "Akta kelahiran hilang"
+        ],
+        "responses": [
+          "Untuk membuat akta kelahiran, Anda memerlukan: 1) Surat Keterangan Lahir dari Bidan/Rumah Sakit, 2) Fotokopi KK dan KTP orang tua, 3) Fotokopi Buku Nikah/Akta Perkawinan, 4) Surat Pengantar RT/RW. Pembuatan akta kelahiran gratis.",
+          "Syarat pembuatan akta kelahiran: 1) Surat Keterangan Lahir, 2) KK dan KTP orang tua, 3) Buku Nikah, 4) Surat Pengantar RT/RW. Proses pembuatan memakan waktu sekitar 7-14 hari kerja.",
+          "Untuk penggantian akta kelahiran yang hilang, Anda perlu membawa: 1) Surat kehilangan dari kepolisian, 2) Fotokopi KK dan KTP, 3) Surat Pengantar RT/RW."
+        ]
+      },
+      {
+        "tag": "akta_kematian",
+        "patterns": [
+          "Cara membuat akta kematian",
+          "Syarat pembuatan akta kematian",
+          "Dokumen untuk akta kematian",
+          "Biaya pembuatan akta kematian",
+          "Berapa lama pembuatan akta kematian",
+          "Prosedur akta kematian"
+        ],
+        "responses": [
+          "Untuk membuat akta kematian, Anda memerlukan: 1) Surat Keterangan Kematian dari Rumah Sakit/Dokter/Kelurahan, 2) Fotokopi KK dan KTP almarhum, 3) KTP pelapor, 4) Surat Pengantar RT/RW. Pembuatan akta kematian gratis.",
+          "Syarat pembuatan akta kematian: 1) Surat Keterangan Kematian, 2) KK dan KTP almarhum, 3) KTP pelapor, 4) Surat Pengantar RT/RW. Proses pembuatan memakan waktu sekitar 7-14 hari kerja.",
+          "Akta kematian penting untuk mengurus hak waris, klaim asuransi, dan perubahan status di Kartu Keluarga. Pembuatannya tidak dipungut biaya (gratis)."
+        ]
+      },
+      {
+        "tag": "pindah_datang",
+        "patterns": [
+          "Cara mengurus pindah domisili",
+          "Syarat pindah alamat",
+          "Dokumen untuk pindah kota",
+          "Biaya pindah alamat",
+          "Prosedur pindah domisili",
+          "Surat keterangan pindah",
+          "Pindah masuk ke Brebes"
+        ],
+        "responses": [
+          "Untuk mengurus pindah domisili keluar dari Brebes, Anda memerlukan: 1) KTP dan KK asli, 2) Surat Pengantar RT/RW, 3) Formulir permohonan pindah. Silakan datang ke kantor Disdukcapil Kota Brebes.",
+          "Untuk pindah masuk ke Brebes, Anda memerlukan: 1) Surat Keterangan Pindah dari daerah asal, 2) KTP dan KK asli, 3) Surat Pengantar RT/RW tempat tinggal baru. Proses ini tidak dipungut biaya (gratis).",
+          "Prosedur pindah domisili: 1) Mengurus Surat Pengantar RT/RW, 2) Mengurus Surat Keterangan Pindah di daerah asal, 3) Mendaftarkan diri di daerah tujuan dengan membawa Surat Keterangan Pindah tersebut."
+        ]
+      },
+      {
+        "tag": "jam_operasional",
+        "patterns": [
+          "Jam buka Disdukcapil",
+          "Jam operasional",
+          "Kapan Disdukcapil buka",
+          "Kapan Disdukcapil tutup",
+          "Hari kerja Disdukcapil",
+          "Apakah Disdukcapil buka hari Sabtu",
+          "Apakah Disdukcapil buka hari Minggu"
+        ],
+        "responses": [
+          "Jam operasional Disdukcapil Kota Brebes: Senin-Jumat, pukul 08.00-15.00 WIB. Kami tidak melayani pada hari Sabtu, Minggu, dan hari libur nasional.",
+          "Disdukcapil Kota Brebes buka setiap hari Senin sampai Jumat, mulai pukul 08.00 hingga 15.00 WIB. Kami tutup pada hari Sabtu, Minggu, dan hari libur nasional.",
+          "Pelayanan Disdukcapil Kota Brebes tersedia pada hari kerja (Senin-Jumat) dari jam 08.00 sampai 15.00 WIB. Kami tidak melayani pada akhir pekan dan hari libur."
+        ]
+      },
+      {
+        "tag": "lokasi",
+        "patterns": [
+          "Alamat Disdukcapil",
+          "Lokasi kantor Disdukcapil",
+          "Dimana kantor Disdukcapil",
+          "Alamat kantor Disdukcapil Brebes",
+          "Petunjuk arah ke Disdukcapil"
+        ],
+        "responses": [
+          "Kantor Disdukcapil Kota Brebes berlokasi di Jl. A. Yani No. 56, Brebes, Jawa Tengah. Anda dapat menggunakan Google Maps untuk petunjuk arah.",
+          "Alamat Disdukcapil Kota Brebes: Jl. A. Yani No. 56, Brebes, Jawa Tengah. Kantor kami berada di pusat kota, dekat dengan Alun-alun Brebes.",
+          "Disdukcapil Kota Brebes beralamat di Jl. A. Yani No. 56, Brebes, Jawa Tengah. Untuk informasi lebih lanjut, silakan hubungi nomor (0283) 671126."
+        ]
+      },
+      {
+        "tag": "kontak",
+        "patterns": [
+          "Nomor telepon Disdukcapil",
+          "Kontak Disdukcapil",
+          "Email Disdukcapil",
+          "Cara menghubungi Disdukcapil",
+          "Website Disdukcapil",
+          "Media sosial Disdukcapil"
+        ],
+        "responses": [
+          "Anda dapat menghubungi Disdukcapil Kota Brebes melalui telepon: (0283) 671126 atau email: disdukcapil@brebeskab.go.id",
+          "Kontak Disdukcapil Kota Brebes: Telepon: (0283) 671126, Email: disdukcapil@brebeskab.go.id, Website: disdukcapil.brebeskab.go.id",
+          "Untuk informasi lebih lanjut, silakan hubungi Disdukcapil Kota Brebes di nomor (0283) 671126 atau kunjungi website resmi kami di disdukcapil.brebeskab.go.id"
+        ]
+      },
+      {
+        "tag": "pernikahan",
+        "patterns": [
+          "Cara mengurus akta pernikahan",
+          "Syarat pembuatan akta nikah",
+          "Dokumen untuk akta perkawinan",
+          "Biaya pembuatan akta nikah",
+          "Prosedur akta perkawinan"
+        ],
+        "responses": [
+          "Untuk pencatatan pernikahan, silakan menghubungi Kantor Urusan Agama (KUA) setempat untuk pernikahan Islam, atau Disdukcapil untuk pernikahan non-Islam.",
+          "Syarat pencatatan pernikahan non-Islam: 1) Surat Keterangan dari pemuka agama, 2) KTP dan KK kedua mempelai, 3) Pas foto berwarna 4x6 (4 lembar), 4) Akta kelahiran, 5) Surat Keterangan belum menikah dari kelurahan.",
+          "Biaya pencatatan pernikahan di Disdukcapil untuk non-Islam adalah gratis. Proses pembuatan akta perkawinan memakan waktu sekitar 7-14 hari kerja setelah semua dokumen lengkap."
+        ]
+      },
+      {
+        "tag": "perceraian",
+        "patterns": [
+          "Cara mengurus akta cerai",
+          "Syarat pembuatan akta perceraian",
+          "Dokumen untuk akta cerai",
+          "Biaya pembuatan akta cerai",
+          "Prosedur akta perceraian"
+        ],
+        "responses": [
+          "Untuk pencatatan perceraian, Anda memerlukan putusan cerai yang sudah berkekuatan hukum tetap dari Pengadilan. Setelah itu, bawa putusan tersebut ke Disdukcapil untuk dicatatkan.",
+          "Syarat pencatatan perceraian: 1) Salinan putusan pengadilan yang telah berkekuatan hukum tetap, 2) KTP dan KK, 3) Kutipan Akta Perkawinan, 4) Pas foto berwarna 4x6 (2 lembar).",
+          "Pencatatan perceraian di Disdukcapil tidak dipungut biaya (gratis). Proses pembuatan akta perceraian memakan waktu sekitar 7-14 hari kerja setelah semua dokumen lengkap."
+        ]
+      },
+      {
+        "tag": "pengaduan",
+        "patterns": [
+          "Cara menyampaikan keluhan",
+          "Prosedur pengaduan",
+          "Melaporkan masalah pelayanan",
+          "Kritik dan saran",
+          "Komplain layanan"
+        ],
+        "responses": [
+          "Untuk menyampaikan pengaduan, Anda dapat: 1) Mengisi formulir pengaduan di kantor Disdukcapil, 2) Mengirim email ke pengaduan.disdukcapil@brebeskab.go.id, atau 3) Menghubungi nomor pengaduan: (0283) 671127.",
+          "Prosedur pengaduan: 1) Sampaikan keluhan secara tertulis dengan menyertakan identitas Anda, 2) Jelaskan kronologi dan permasalahan secara detail, 3) Lampirkan bukti pendukung jika ada. Pengaduan Anda akan ditindaklanjuti dalam 3-5 hari kerja.",
+          "Kami sangat menghargai kritik dan saran untuk perbaikan layanan. Silakan sampaikan melalui kotak saran di kantor kami, email: pengaduan.disdukcapil@brebeskab.go.id, atau telepon: (0283) 671127."
+        ]
+      }
+    ]
+  }
